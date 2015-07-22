@@ -1,0 +1,353 @@
+desc: --time-unit=i --detailed-freq=1 --threshold=0.0 --max-snapshots=1000 --massif-out-file=massif.mojMassifSurowy1.out
+cmd: ./program
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=1
+#-----------
+time=1447980
+mem_heap_B=80
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=detailed
+n1: 80 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+#-----------
+snapshot=2
+#-----------
+time=1448024
+mem_heap_B=120
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+#-----------
+snapshot=3
+#-----------
+time=1448068
+mem_heap_B=136
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 16 0x4009F5: fun2() (main.cpp:39)
+  n1: 16 0x4009C5: fun1() (main.cpp:30)
+   n0: 16 0x400981: main (main.cpp:16)
+#-----------
+snapshot=4
+#-----------
+time=1448993
+mem_heap_B=136
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=peak
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 16 0x4009F5: fun2() (main.cpp:39)
+  n1: 16 0x4009C5: fun1() (main.cpp:30)
+   n0: 16 0x400981: main (main.cpp:16)
+#-----------
+snapshot=5
+#-----------
+time=1448993
+mem_heap_B=120
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n3: 120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=6
+#-----------
+time=1449026
+mem_heap_B=136
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 16 0x4009F5: fun2() (main.cpp:39)
+  n1: 16 0x4009C5: fun1() (main.cpp:30)
+   n0: 16 0x400981: main (main.cpp:16)
+#-----------
+snapshot=7
+#-----------
+time=1449065
+mem_heap_B=120
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n3: 120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=8
+#-----------
+time=1449103
+mem_heap_B=80
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=detailed
+n3: 80 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 0 0x4009BC: fun1() (main.cpp:28)
+  n0: 0 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=9
+#-----------
+time=1449142
+mem_heap_B=120
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n3: 120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=10
+#-----------
+time=1449186
+mem_heap_B=136
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 16 0x4009F5: fun2() (main.cpp:39)
+  n1: 16 0x4009C5: fun1() (main.cpp:30)
+   n0: 16 0x400981: main (main.cpp:16)
+#-----------
+snapshot=11
+#-----------
+time=1449225
+mem_heap_B=120
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n3: 120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=12
+#-----------
+time=1449258
+mem_heap_B=136
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 16 0x4009F5: fun2() (main.cpp:39)
+  n1: 16 0x4009C5: fun1() (main.cpp:30)
+   n0: 16 0x400981: main (main.cpp:16)
+#-----------
+snapshot=13
+#-----------
+time=1449297
+mem_heap_B=120
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n3: 120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=14
+#-----------
+time=1449335
+mem_heap_B=80
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=detailed
+n3: 80 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 0 0x4009BC: fun1() (main.cpp:28)
+  n0: 0 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=15
+#-----------
+time=1449374
+mem_heap_B=120
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n3: 120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=16
+#-----------
+time=1449418
+mem_heap_B=136
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 16 0x4009F5: fun2() (main.cpp:39)
+  n1: 16 0x4009C5: fun1() (main.cpp:30)
+   n0: 16 0x400981: main (main.cpp:16)
+#-----------
+snapshot=17
+#-----------
+time=1449457
+mem_heap_B=120
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n3: 120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=18
+#-----------
+time=1449490
+mem_heap_B=136
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n2: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n2: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+  n1: 16 0x4009F5: fun2() (main.cpp:39)
+   n1: 16 0x4009C5: fun1() (main.cpp:30)
+    n0: 16 0x400981: main (main.cpp:16)
+#-----------
+snapshot=19
+#-----------
+time=1449529
+mem_heap_B=120
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n2: 40 0x4009BC: fun1() (main.cpp:28)
+  n0: 40 0x400981: main (main.cpp:16)
+  n1: 0 0x4009F5: fun2() (main.cpp:39)
+   n1: 0 0x4009C5: fun1() (main.cpp:30)
+    n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=20
+#-----------
+time=1449567
+mem_heap_B=80
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=detailed
+n3: 80 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80 0x40096F: main (main.cpp:13)
+ n1: 0 0x4009BC: fun1() (main.cpp:28)
+  n0: 0 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=21
+#-----------
+time=1449605
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n3: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 0 0x40096F: main (main.cpp:13)
+ n1: 0 0x4009BC: fun1() (main.cpp:28)
+  n0: 0 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=22
+#-----------
+time=1449639
+mem_heap_B=80
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=detailed
+n4: 80 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 80 0x400A2A: fun3() (main.cpp:46)
+  n0: 80 0x4009A3: main (main.cpp:20)
+ n0: 0 0x40096F: main (main.cpp:13)
+ n1: 0 0x4009BC: fun1() (main.cpp:28)
+  n0: 0 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+#-----------
+snapshot=23
+#-----------
+time=1449678
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n4: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 0 0x40096F: main (main.cpp:13)
+ n1: 0 0x4009BC: fun1() (main.cpp:28)
+  n0: 0 0x400981: main (main.cpp:16)
+ n1: 0 0x4009F5: fun2() (main.cpp:39)
+  n1: 0 0x4009C5: fun1() (main.cpp:30)
+   n0: 0 0x400981: main (main.cpp:16)
+ n1: 0 0x400A2A: fun3() (main.cpp:46)
+  n0: 0 0x4009A3: main (main.cpp:20)
