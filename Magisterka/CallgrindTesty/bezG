@@ -1,0 +1,969 @@
+desc: --stacks=yes --massif-out-file=bezG
+cmd: ./program
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=161965
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=276637
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1448
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=3
+#-----------
+time=451257
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1448
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=562116
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1784
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=721726
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1208
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=840848
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1536
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=1024904
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1448
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=1241578
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1208
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1397653
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=728
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=10
+#-----------
+time=1619734
+mem_heap_B=25387
+mem_heap_extra_B=12525
+mem_stacks_B=360456
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1851486
+mem_heap_B=62212
+mem_heap_extra_B=30692
+mem_stacks_B=360456
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2101142
+mem_heap_B=101887
+mem_heap_extra_B=50265
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 101887 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 101887 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 101887 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 101887 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 51604 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 51604 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 51604 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 51604 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 51604 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 50283 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 50283 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 50283 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 50283 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 50283 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=13
+#-----------
+time=2279153
+mem_heap_B=130162
+mem_heap_extra_B=64214
+mem_stacks_B=360392
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2528048
+mem_heap_B=169725
+mem_heap_extra_B=83731
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 169725 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 169725 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 169725 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 169725 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 85994 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 85994 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 85994 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 85994 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 85994 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 83731 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 83731 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 83731 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 83731 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 83731 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=15
+#-----------
+time=2743280
+mem_heap_B=203925
+mem_heap_extra_B=100603
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 203925 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 203925 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 203925 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 203925 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 103322 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 103322 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 103322 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 103322 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 103322 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 100603 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 100603 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 100603 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 100603 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 100603 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=16
+#-----------
+time=2976448
+mem_heap_B=240975
+mem_heap_extra_B=118881
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 240975 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 240975 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 240975 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 240975 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 122094 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 122094 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 122094 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 122094 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 122094 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 118881 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 118881 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 118881 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 118881 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 118881 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=17
+#-----------
+time=3100112
+mem_heap_B=260625
+mem_heap_extra_B=128575
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 260625 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 260625 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 260625 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 260625 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 132050 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 132050 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 132050 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 132050 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 132050 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 128575 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 128575 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 128575 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 128575 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 128575 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=18
+#-----------
+time=3228750
+mem_heap_B=281062
+mem_heap_extra_B=138658
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 281062 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 281062 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 281062 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 281062 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 142386 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 142386 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 142386 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 142386 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 142386 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 138676 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 138676 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 138676 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 138676 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 138676 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=19
+#-----------
+time=3362798
+mem_heap_B=302362
+mem_heap_extra_B=149166
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 302362 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 302362 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 302362 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 302362 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 153178 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 153178 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 153178 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 153178 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 153178 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 149184 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 149184 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 149184 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 149184 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 149184 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=20
+#-----------
+time=3502256
+mem_heap_B=324525
+mem_heap_extra_B=160099
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 324525 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 324525 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 324525 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 324525 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 164426 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 164426 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 164426 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 164426 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 164426 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 160099 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 160099 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 160099 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 160099 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 160099 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=21
+#-----------
+time=3647160
+mem_heap_B=347550
+mem_heap_extra_B=171458
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 347550 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 347550 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 347550 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 347550 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 176092 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 176092 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 176092 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 176092 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 176092 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 171458 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 171458 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 171458 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 171458 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 171458 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=22
+#-----------
+time=3798200
+mem_heap_B=371550
+mem_heap_extra_B=183298
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 371550 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 371550 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 371550 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 371550 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 188252 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 188252 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 188252 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 188252 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 188252 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 183298 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 183298 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 183298 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 183298 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 183298 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=23
+#-----------
+time=3995750
+mem_heap_B=402937
+mem_heap_extra_B=198783
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 402937 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 402937 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 402937 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 402937 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 204136 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 204136 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 204136 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 204136 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 204136 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 198801 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 198801 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 198801 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 198801 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 198801 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=24
+#-----------
+time=4160950
+mem_heap_B=429187
+mem_heap_extra_B=211733
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 429187 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 429187 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 429187 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 429187 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 217436 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 217436 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 217436 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 217436 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 217436 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 211751 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 211751 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 211751 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 211751 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 211751 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=25
+#-----------
+time=4332758
+mem_heap_B=456487
+mem_heap_extra_B=225201
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 456487 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456487 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 456487 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 456487 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 231268 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 231268 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 231268 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 231268 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 231268 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 225219 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 225219 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 225219 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 225219 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 225219 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=26
+#-----------
+time=4511392
+mem_heap_B=484875
+mem_heap_extra_B=239205
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 484875 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 484875 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 484875 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 484875 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 245670 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 245670 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 245670 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 245670 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 245670 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 239205 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 239205 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 239205 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 239205 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 239205 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=27
+#-----------
+time=4697360
+mem_heap_B=514425
+mem_heap_extra_B=253783
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 514425 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 514425 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 514425 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 514425 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 260642 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 260642 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 260642 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 260642 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 260642 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 253783 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 253783 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 253783 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 253783 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 253783 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=28
+#-----------
+time=4890880
+mem_heap_B=545175
+mem_heap_extra_B=268953
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 545175 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 545175 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 545175 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 545175 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 276222 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 276222 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 276222 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 276222 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 276222 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 268953 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 268953 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 268953 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 268953 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 268953 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=29
+#-----------
+time=5092206
+mem_heap_B=577162
+mem_heap_extra_B=284734
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 577162 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 577162 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 577162 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 577162 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 292410 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 292410 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 292410 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 292410 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 292410 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 284752 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 284752 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 284752 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 284752 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 284752 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=30
+#-----------
+time=5301774
+mem_heap_B=610462
+mem_heap_extra_B=301162
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 610462 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 610462 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 610462 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 610462 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 309282 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 309282 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 309282 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 309282 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 309282 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 301180 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 301180 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 301180 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 301180 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 301180 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=31
+#-----------
+time=5520008
+mem_heap_B=645112
+mem_heap_extra_B=318256
+mem_stacks_B=360504
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=5744888
+mem_heap_B=680850
+mem_heap_extra_B=335886
+mem_stacks_B=360376
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=5983560
+mem_heap_B=718800
+mem_heap_extra_B=354608
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 718800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 718800 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 718800 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 718800 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 364192 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 364192 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 364192 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 364192 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 364192 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 354608 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 354608 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 354608 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 354608 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 354608 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=34
+#-----------
+time=6229472
+mem_heap_B=757875
+mem_heap_extra_B=373885
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 757875 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 757875 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 757875 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 757875 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 383990 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 383990 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 383990 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 383990 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 383990 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 373885 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 373885 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 373885 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 373885 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 373885 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=35
+#-----------
+time=6356222
+mem_heap_B=778012
+mem_heap_extra_B=383820
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 778012 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 778012 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 778012 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 778012 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 394174 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 394174 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 394174 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 394174 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 394174 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 383838 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 383838 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 383838 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 383838 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 383838 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=36
+#-----------
+time=6485296
+mem_heap_B=798525
+mem_heap_extra_B=393939
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 798525 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 798525 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 798525 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 798525 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 404586 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 404586 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 404586 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 404586 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 404586 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 393939 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 393939 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 393939 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 393939 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 393939 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=37
+#-----------
+time=6617238
+mem_heap_B=819487
+mem_heap_extra_B=404281
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 819487 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 819487 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 819487 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 819487 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 415188 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 415188 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 415188 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 415188 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 415188 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 404299 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 404299 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 404299 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 404299 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 404299 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=38
+#-----------
+time=6751504
+mem_heap_B=840825
+mem_heap_extra_B=414807
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 840825 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 840825 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 840825 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 840825 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 426018 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 426018 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 426018 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 426018 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 426018 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 414807 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 414807 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 414807 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 414807 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 414807 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=39
+#-----------
+time=6888638
+mem_heap_B=862612
+mem_heap_extra_B=425556
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 862612 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 862612 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 862612 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 862612 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 437038 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 437038 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 437038 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 437038 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 437038 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 425574 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 425574 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 425574 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 425574 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 425574 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=40
+#-----------
+time=7028568
+mem_heap_B=884850
+mem_heap_extra_B=436526
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 884850 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 884850 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 884850 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 884850 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 448324 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 448324 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 448324 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 448324 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 448324 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 436526 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 436526 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 436526 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 436526 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 436526 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=41
+#-----------
+time=7243800
+mem_heap_B=919050
+mem_heap_extra_B=453398
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 919050 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 919050 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 919050 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 919050 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 465652 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 465652 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 465652 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 465652 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 465652 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 453398 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 453398 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 453398 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 453398 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 453398 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=42
+#-----------
+time=7388990
+mem_heap_B=942112
+mem_heap_extra_B=464776
+mem_stacks_B=360456
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=7537451
+mem_heap_B=965700
+mem_heap_extra_B=476412
+mem_stacks_B=360392
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=7688963
+mem_heap_B=989775
+mem_heap_extra_B=488289
+mem_stacks_B=360392
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=7843526
+mem_heap_B=1014337
+mem_heap_extra_B=500407
+mem_stacks_B=360456
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=8001174
+mem_heap_B=1039387
+mem_heap_extra_B=512765
+mem_stacks_B=360456
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=8161907
+mem_heap_B=1064925
+mem_heap_extra_B=525363
+mem_stacks_B=360392
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=8325910
+mem_heap_B=1090987
+mem_heap_extra_B=538221
+mem_stacks_B=360456
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=8421222
+mem_heap_B=1106137
+mem_heap_extra_B=545695
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 1106137 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1106137 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 1106137 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 1106137 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 560424 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 560424 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 560424 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 560424 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 560424 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 545713 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 545713 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 545713 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 545713 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 545713 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=50
+#-----------
+time=8506182
+mem_heap_B=1119637
+mem_heap_extra_B=552355
+mem_stacks_B=360608
+heap_tree=peak
+n1: 1119637 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1119637 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 1119637 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 1119637 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 567264 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 567264 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 567264 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 567264 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 567264 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 552373 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 552373 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 552373 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 552373 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 552373 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=51
+#-----------
+time=8601509
+mem_heap_B=1084538
+mem_heap_extra_B=535038
+mem_stacks_B=360448
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=8696837
+mem_heap_B=1020150
+mem_heap_extra_B=503274
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=8792149
+mem_heap_B=955725
+mem_heap_extra_B=471491
+mem_stacks_B=360328
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=8887471
+mem_heap_B=891338
+mem_heap_extra_B=439726
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=8982794
+mem_heap_B=826913
+mem_heap_extra_B=407943
+mem_stacks_B=360448
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=9078122
+mem_heap_B=762525
+mem_heap_extra_B=376179
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=9173434
+mem_heap_B=698100
+mem_heap_extra_B=344396
+mem_stacks_B=360328
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=9268756
+mem_heap_B=633713
+mem_heap_extra_B=312631
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=9364079
+mem_heap_B=569288
+mem_heap_extra_B=280848
+mem_stacks_B=360448
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=9459407
+mem_heap_B=504900
+mem_heap_extra_B=249084
+mem_stacks_B=360368
+heap_tree=detailed
+n1: 504900 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 504900 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 504900 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 504900 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 255816 0x400C1A: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 255816 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 255816 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 255816 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 255816 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+    n1: 249084 0x400C05: Index::Index() (in /sambaServer/CallgrindTesty/program)
+     n1: 249084 0x400AE0: funkcja3() (in /sambaServer/CallgrindTesty/program)
+      n1: 249084 0x400AB4: funkcja2() (in /sambaServer/CallgrindTesty/program)
+       n1: 249084 0x400AA9: funkcja1() (in /sambaServer/CallgrindTesty/program)
+        n0: 249084 0x400A99: main (in /sambaServer/CallgrindTesty/program)
+#-----------
+snapshot=61
+#-----------
+time=9554719
+mem_heap_B=440475
+mem_heap_extra_B=217301
+mem_stacks_B=360328
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=9650041
+mem_heap_B=376088
+mem_heap_extra_B=185536
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=9745364
+mem_heap_B=311663
+mem_heap_extra_B=153753
+mem_stacks_B=360448
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=9840692
+mem_heap_B=247275
+mem_heap_extra_B=121989
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=9936004
+mem_heap_B=182850
+mem_heap_extra_B=90206
+mem_stacks_B=360328
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=10031326
+mem_heap_B=118463
+mem_heap_extra_B=58441
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=10126649
+mem_heap_B=54038
+mem_heap_extra_B=26658
+mem_stacks_B=360448
+heap_tree=empty

@@ -1,0 +1,1151 @@
+desc: --stacks=yes --massif-out-file=zG
+cmd: ./a.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=229526
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1264
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=433981
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1208
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=3
+#-----------
+time=559814
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=740599
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1208
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=984115
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1536
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1168906
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1448
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=7
+#-----------
+time=1255290
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1536
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=1439755
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1096
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1556508
+mem_heap_B=15337
+mem_heap_extra_B=7567
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 15337 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15337 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 15337 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 15337 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 7752 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 7752 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 7752 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 7752 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 7752 0x400A99: main (program.cpp:38)
+    n1: 7585 0x400C05: Index::Index() (program.cpp:16)
+     n1: 7585 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 7585 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 7585 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 7585 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=10
+#-----------
+time=1691500
+mem_heap_B=36787
+mem_heap_extra_B=18149
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 36787 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 36787 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 36787 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 36787 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 18620 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 18620 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 18620 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 18620 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 18620 0x400A99: main (program.cpp:38)
+    n1: 18167 0x400C05: Index::Index() (program.cpp:16)
+     n1: 18167 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 18167 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 18167 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 18167 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=11
+#-----------
+time=1837566
+mem_heap_B=60000
+mem_heap_extra_B=29600
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 60000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60000 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 60000 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 60000 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 30400 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 30400 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 30400 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 30400 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 30400 0x400A99: main (program.cpp:38)
+    n1: 29600 0x400C05: Index::Index() (program.cpp:16)
+     n1: 29600 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 29600 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 29600 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 29600 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=12
+#-----------
+time=1935052
+mem_heap_B=75487
+mem_heap_extra_B=37241
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 75487 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 75487 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 75487 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 75487 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 38228 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 38228 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 38228 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 38228 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 38228 0x400A99: main (program.cpp:38)
+    n1: 37259 0x400C05: Index::Index() (program.cpp:16)
+     n1: 37259 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 37259 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 37259 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 37259 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=13
+#-----------
+time=2101196
+mem_heap_B=101887
+mem_heap_extra_B=50265
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 101887 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 101887 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 101887 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 101887 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 51604 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 51604 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 51604 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 51604 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 51604 0x400A99: main (program.cpp:38)
+    n1: 50283 0x400C05: Index::Index() (program.cpp:16)
+     n1: 50283 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 50283 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 50283 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 50283 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=14
+#-----------
+time=2279968
+mem_heap_B=130275
+mem_heap_extra_B=64269
+mem_stacks_B=360384
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2473488
+mem_heap_B=161025
+mem_heap_extra_B=79439
+mem_stacks_B=360384
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2606708
+mem_heap_B=182212
+mem_heap_extra_B=89892
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 182212 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 182212 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 182212 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 182212 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 92302 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 92302 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 92302 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 92302 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 92302 0x400A99: main (program.cpp:38)
+    n1: 89910 0x400C05: Index::Index() (program.cpp:16)
+     n1: 89910 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 89910 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 89910 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 89910 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=17
+#-----------
+time=2828548
+mem_heap_B=217462
+mem_heap_extra_B=107282
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 217462 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 217462 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 217462 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 217462 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 110162 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 110162 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 110162 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 110162 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 110162 0x400A99: main (program.cpp:38)
+    n1: 107300 0x400C05: Index::Index() (program.cpp:16)
+     n1: 107300 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 107300 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 107300 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 107300 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=18
+#-----------
+time=3068796
+mem_heap_B=255637
+mem_heap_extra_B=126115
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 255637 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 255637 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 255637 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 255637 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 129504 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 129504 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 129504 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 129504 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 129504 0x400A99: main (program.cpp:38)
+    n1: 126133 0x400C05: Index::Index() (program.cpp:16)
+     n1: 126133 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 126133 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 126133 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 126133 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=19
+#-----------
+time=3194682
+mem_heap_B=275625
+mem_heap_extra_B=135975
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=3325898
+mem_heap_B=296475
+mem_heap_extra_B=146261
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=3462778
+mem_heap_B=318225
+mem_heap_extra_B=156991
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=3610398
+mem_heap_B=341700
+mem_heap_extra_B=168572
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 341700 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 341700 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 341700 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 341700 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 173128 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 173128 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 173128 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 173128 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 173128 0x400A99: main (program.cpp:38)
+    n1: 168572 0x400C05: Index::Index() (program.cpp:16)
+     n1: 168572 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 168572 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 168572 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 168572 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=23
+#-----------
+time=3760022
+mem_heap_B=365475
+mem_heap_extra_B=180301
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 365475 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 365475 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 365475 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 365475 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 185174 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 185174 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 185174 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 185174 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 185174 0x400A99: main (program.cpp:38)
+    n1: 180301 0x400C05: Index::Index() (program.cpp:16)
+     n1: 180301 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 180301 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 180301 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 180301 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=24
+#-----------
+time=3915564
+mem_heap_B=390187
+mem_heap_extra_B=192493
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 390187 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 390187 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 390187 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 390187 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 197676 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 197676 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 197676 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 197676 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 197676 0x400A99: main (program.cpp:38)
+    n1: 192511 0x400C05: Index::Index() (program.cpp:16)
+     n1: 192511 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 192511 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 192511 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 192511 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=25
+#-----------
+time=4077460
+mem_heap_B=415912
+mem_heap_extra_B=205184
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 415912 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 415912 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 415912 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 415912 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 210710 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 210710 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 210710 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 210710 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 210710 0x400A99: main (program.cpp:38)
+    n1: 205202 0x400C05: Index::Index() (program.cpp:16)
+     n1: 205202 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 205202 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 205202 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 205202 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=26
+#-----------
+time=4245964
+mem_heap_B=442687
+mem_heap_extra_B=218393
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 442687 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 442687 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 442687 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 442687 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 224276 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 224276 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 224276 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 224276 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 224276 0x400A99: main (program.cpp:38)
+    n1: 218411 0x400C05: Index::Index() (program.cpp:16)
+     n1: 218411 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 218411 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 218411 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 218411 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=27
+#-----------
+time=4421294
+mem_heap_B=470550
+mem_heap_extra_B=232138
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 470550 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 470550 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 470550 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 470550 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 238412 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 238412 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 238412 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 238412 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 238412 0x400A99: main (program.cpp:38)
+    n1: 232138 0x400C05: Index::Index() (program.cpp:16)
+     n1: 232138 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 232138 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 232138 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 232138 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=28
+#-----------
+time=4603486
+mem_heap_B=499500
+mem_heap_extra_B=246420
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 499500 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 499500 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 499500 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 499500 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 253080 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 253080 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 253080 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 253080 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 253080 0x400A99: main (program.cpp:38)
+    n1: 246420 0x400C05: Index::Index() (program.cpp:16)
+     n1: 246420 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 246420 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 246420 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 246420 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=29
+#-----------
+time=4793230
+mem_heap_B=529650
+mem_heap_extra_B=261294
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 529650 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 529650 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 529650 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 529650 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 268356 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 268356 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 268356 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 268356 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 268356 0x400A99: main (program.cpp:38)
+    n1: 261294 0x400C05: Index::Index() (program.cpp:16)
+     n1: 261294 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 261294 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 261294 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 261294 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=30
+#-----------
+time=4990526
+mem_heap_B=561000
+mem_heap_extra_B=276760
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 561000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 561000 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 561000 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 561000 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 284240 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 284240 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 284240 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 284240 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 284240 0x400A99: main (program.cpp:38)
+    n1: 276760 0x400C05: Index::Index() (program.cpp:16)
+     n1: 276760 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 276760 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 276760 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 276760 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=31
+#-----------
+time=5140102
+mem_heap_B=584737
+mem_heap_extra_B=288471
+mem_stacks_B=360504
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=5301828
+mem_heap_B=610462
+mem_heap_extra_B=301162
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 610462 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 610462 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 610462 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 610462 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 309282 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 309282 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 309282 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 309282 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 309282 0x400A99: main (program.cpp:38)
+    n1: 301180 0x400C05: Index::Index() (program.cpp:16)
+     n1: 301180 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 301180 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 301180 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 301180 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=33
+#-----------
+time=5520110
+mem_heap_B=645150
+mem_heap_extra_B=318274
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 645150 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 645150 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 645150 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 645150 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 326876 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 326876 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 326876 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 326876 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 326876 0x400A99: main (program.cpp:38)
+    n1: 318274 0x400C05: Index::Index() (program.cpp:16)
+     n1: 318274 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 318274 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 318274 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 318274 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=34
+#-----------
+time=5747142
+mem_heap_B=681225
+mem_heap_extra_B=336071
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 681225 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 681225 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 681225 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 681225 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 345154 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 345154 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 345154 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 345154 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 345154 0x400A99: main (program.cpp:38)
+    n1: 336071 0x400C05: Index::Index() (program.cpp:16)
+     n1: 336071 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 336071 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 336071 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 336071 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=35
+#-----------
+time=5983614
+mem_heap_B=718800
+mem_heap_extra_B=354608
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 718800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 718800 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 718800 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 718800 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 364192 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 364192 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 364192 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 364192 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 364192 0x400A99: main (program.cpp:38)
+    n1: 354608 0x400C05: Index::Index() (program.cpp:16)
+     n1: 354608 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 354608 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 354608 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 354608 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=36
+#-----------
+time=6105390
+mem_heap_B=738150
+mem_heap_extra_B=364154
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 738150 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 738150 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 738150 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 738150 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 373996 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 373996 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 373996 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 373996 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 373996 0x400A99: main (program.cpp:38)
+    n1: 364154 0x400C05: Index::Index() (program.cpp:16)
+     n1: 364154 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 364154 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 364154 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 364154 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=37
+#-----------
+time=6229526
+mem_heap_B=757875
+mem_heap_extra_B=373885
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 757875 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 757875 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 757875 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 757875 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 383990 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 383990 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 383990 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 383990 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 383990 0x400A99: main (program.cpp:38)
+    n1: 373885 0x400C05: Index::Index() (program.cpp:16)
+     n1: 373885 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 373885 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 373885 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 373885 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=38
+#-----------
+time=6356276
+mem_heap_B=778012
+mem_heap_extra_B=383820
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 778012 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 778012 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 778012 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 778012 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 394174 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 394174 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 394174 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 394174 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 394174 0x400A99: main (program.cpp:38)
+    n1: 383838 0x400C05: Index::Index() (program.cpp:16)
+     n1: 383838 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 383838 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 383838 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 383838 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=39
+#-----------
+time=6485350
+mem_heap_B=798525
+mem_heap_extra_B=393939
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 798525 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 798525 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 798525 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 798525 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 404586 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 404586 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 404586 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 404586 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 404586 0x400A99: main (program.cpp:38)
+    n1: 393939 0x400C05: Index::Index() (program.cpp:16)
+     n1: 393939 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 393939 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 393939 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 393939 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=40
+#-----------
+time=6617292
+mem_heap_B=819487
+mem_heap_extra_B=404281
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 819487 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 819487 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 819487 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 819487 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 415188 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 415188 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 415188 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 415188 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 415188 0x400A99: main (program.cpp:38)
+    n1: 404299 0x400C05: Index::Index() (program.cpp:16)
+     n1: 404299 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 404299 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 404299 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 404299 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=41
+#-----------
+time=6751558
+mem_heap_B=840825
+mem_heap_extra_B=414807
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 840825 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 840825 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 840825 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 840825 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 426018 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 426018 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 426018 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 426018 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 426018 0x400A99: main (program.cpp:38)
+    n1: 414807 0x400C05: Index::Index() (program.cpp:16)
+     n1: 414807 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 414807 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 414807 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 414807 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=42
+#-----------
+time=6888692
+mem_heap_B=862612
+mem_heap_extra_B=425556
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 862612 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 862612 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 862612 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 862612 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 437038 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 437038 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 437038 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 437038 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 437038 0x400A99: main (program.cpp:38)
+    n1: 425574 0x400C05: Index::Index() (program.cpp:16)
+     n1: 425574 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 425574 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 425574 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 425574 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=43
+#-----------
+time=7028622
+mem_heap_B=884850
+mem_heap_extra_B=436526
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 884850 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 884850 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 884850 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 884850 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 448324 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 448324 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 448324 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 448324 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 448324 0x400A99: main (program.cpp:38)
+    n1: 436526 0x400C05: Index::Index() (program.cpp:16)
+     n1: 436526 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 436526 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 436526 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 436526 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=44
+#-----------
+time=7171420
+mem_heap_B=907537
+mem_heap_extra_B=447719
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 907537 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 907537 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 907537 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 907537 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 459800 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 459800 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 459800 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 459800 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 459800 0x400A99: main (program.cpp:38)
+    n1: 447737 0x400C05: Index::Index() (program.cpp:16)
+     n1: 447737 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 447737 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 447737 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 447737 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=45
+#-----------
+time=7390900
+mem_heap_B=942412
+mem_heap_extra_B=464924
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 942412 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 942412 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 942412 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 942412 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 477470 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 477470 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 477470 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 477470 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 477470 0x400A99: main (program.cpp:38)
+    n1: 464942 0x400C05: Index::Index() (program.cpp:16)
+     n1: 464942 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 464942 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 464942 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 464942 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=46
+#-----------
+time=7538886
+mem_heap_B=965925
+mem_heap_extra_B=476523
+mem_stacks_B=360456
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=7690398
+mem_heap_B=990000
+mem_heap_extra_B=488400
+mem_stacks_B=360456
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=7844958
+mem_heap_B=1014562
+mem_heap_extra_B=500518
+mem_stacks_B=360608
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=8009220
+mem_heap_B=1040662
+mem_heap_extra_B=513394
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 1040662 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1040662 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 1040662 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 1040662 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 527250 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 527250 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 527250 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 527250 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 527250 0x400A99: main (program.cpp:38)
+    n1: 513412 0x400C05: Index::Index() (program.cpp:16)
+     n1: 513412 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 513412 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 513412 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 513412 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=50
+#-----------
+time=8089932
+mem_heap_B=1053487
+mem_heap_extra_B=519721
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 1053487 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1053487 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 1053487 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 1053487 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 533748 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 533748 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 533748 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 533748 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 533748 0x400A99: main (program.cpp:38)
+    n1: 519739 0x400C05: Index::Index() (program.cpp:16)
+     n1: 519739 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 519739 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 519739 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 519739 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=51
+#-----------
+time=8171588
+mem_heap_B=1066462
+mem_heap_extra_B=526122
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 1066462 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1066462 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 1066462 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 1066462 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 540322 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 540322 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 540322 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 540322 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 540322 0x400A99: main (program.cpp:38)
+    n1: 526140 0x400C05: Index::Index() (program.cpp:16)
+     n1: 526140 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 526140 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 526140 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 526140 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=52
+#-----------
+time=8253934
+mem_heap_B=1079550
+mem_heap_extra_B=532578
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 1079550 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1079550 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 1079550 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 1079550 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 546972 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 546972 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 546972 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 546972 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 546972 0x400A99: main (program.cpp:38)
+    n1: 532578 0x400C05: Index::Index() (program.cpp:16)
+     n1: 532578 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 532578 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 532578 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 532578 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=53
+#-----------
+time=8337260
+mem_heap_B=1092787
+mem_heap_extra_B=539109
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 1092787 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1092787 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 1092787 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 1092787 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 553660 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 553660 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 553660 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 553660 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 553660 0x400A99: main (program.cpp:38)
+    n1: 539127 0x400C05: Index::Index() (program.cpp:16)
+     n1: 539127 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 539127 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 539127 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 539127 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=54
+#-----------
+time=8421276
+mem_heap_B=1106137
+mem_heap_extra_B=545695
+mem_stacks_B=360608
+heap_tree=detailed
+n1: 1106137 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1106137 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 1106137 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 1106137 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 560424 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 560424 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 560424 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 560424 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 560424 0x400A99: main (program.cpp:38)
+    n1: 545713 0x400C05: Index::Index() (program.cpp:16)
+     n1: 545713 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 545713 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 545713 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 545713 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=55
+#-----------
+time=8506236
+mem_heap_B=1119637
+mem_heap_extra_B=552355
+mem_stacks_B=360608
+heap_tree=peak
+n1: 1119637 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1119637 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 1119637 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 1119637 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 567264 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 567264 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 567264 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 567264 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 567264 0x400A99: main (program.cpp:38)
+    n1: 552373 0x400C05: Index::Index() (program.cpp:16)
+     n1: 552373 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 552373 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 552373 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 552373 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=56
+#-----------
+time=8592625
+mem_heap_B=1090575
+mem_heap_extra_B=538017
+mem_stacks_B=360328
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=8679020
+mem_heap_B=1032225
+mem_heap_extra_B=509231
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=8765405
+mem_heap_B=973838
+mem_heap_extra_B=480426
+mem_stacks_B=360360
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=8851804
+mem_heap_B=915450
+mem_heap_extra_B=451622
+mem_stacks_B=360448
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=8938205
+mem_heap_B=857100
+mem_heap_extra_B=422836
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=9024590
+mem_heap_B=798713
+mem_heap_extra_B=394031
+mem_stacks_B=360360
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=9110989
+mem_heap_B=740325
+mem_heap_extra_B=365227
+mem_stacks_B=360448
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=9197390
+mem_heap_B=681975
+mem_heap_extra_B=336441
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=9283775
+mem_heap_B=623588
+mem_heap_extra_B=307636
+mem_stacks_B=360360
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=9370174
+mem_heap_B=565200
+mem_heap_extra_B=278832
+mem_stacks_B=360448
+heap_tree=detailed
+n1: 565200 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 565200 0x4EF0697: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.20)
+  n1: 565200 0x4EF0722: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+   n2: 565200 0x4EF0D5C: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.20)
+    n1: 286368 0x400C1A: Index::Index() (program.cpp:17)
+     n1: 286368 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 286368 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 286368 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 286368 0x400A99: main (program.cpp:38)
+    n1: 278832 0x400C05: Index::Index() (program.cpp:16)
+     n1: 278832 0x400AE0: funkcja3() (program.cpp:55)
+      n1: 278832 0x400AB4: funkcja2() (program.cpp:50)
+       n1: 278832 0x400AA9: funkcja1() (program.cpp:45)
+        n0: 278832 0x400A99: main (program.cpp:38)
+#-----------
+snapshot=66
+#-----------
+time=9456575
+mem_heap_B=506850
+mem_heap_extra_B=250046
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=9542960
+mem_heap_B=448463
+mem_heap_extra_B=221241
+mem_stacks_B=360360
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=9629359
+mem_heap_B=390075
+mem_heap_extra_B=192437
+mem_stacks_B=360448
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=9715760
+mem_heap_B=331725
+mem_heap_extra_B=163651
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=9802145
+mem_heap_B=273338
+mem_heap_extra_B=134846
+mem_stacks_B=360360
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=9888544
+mem_heap_B=214950
+mem_heap_extra_B=106042
+mem_stacks_B=360448
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=9974945
+mem_heap_B=156600
+mem_heap_extra_B=77256
+mem_stacks_B=360368
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=10061330
+mem_heap_B=98213
+mem_heap_extra_B=48451
+mem_stacks_B=360360
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=10147729
+mem_heap_B=39825
+mem_heap_extra_B=19647
+mem_stacks_B=360448
+heap_tree=empty

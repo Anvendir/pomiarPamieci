@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.po' (creator: callgrind-3.9.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 3780835
+Trigger: Program termination
+Profiled target:  ./program (PID 3009, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+        Ir 
+--------------------------------------------------------------------------------
+17,284,682  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+       Ir  file:function
+--------------------------------------------------------------------------------
+4,950,028  ???:Index::Index() [/home/rafalkobak/Program/program]
+4,380,865  ???:_int_malloc [/usr/lib64/libc-2.18.so]
+2,129,995  ???:_int_free [/usr/lib64/libc-2.18.so]
+  990,124  ???:malloc [/usr/lib64/ld-2.18.so]
+  780,004  ???:Index::~Index() [/home/rafalkobak/Program/program]
+  519,917  ???:_dl_lookup_symbol_x [/usr/lib64/ld-2.18.so]
+  510,080  ???:__memcpy_sse2_unaligned [/usr/lib64/libc-2.18.so]
+  482,271  ???:strlen [/usr/lib64/ld-2.18.so]
+  480,012  ???:free [/usr/lib64/ld-2.18.so]
+  480,004  ???:operator new(unsigned long) [/usr/lib64/libstdc++.so.6.0.19]
+  360,008  ???:0x00000000000be136 [/usr/lib64/libstdc++.so.6.0.19]
+  344,642  ???:do_lookup_x [/usr/lib64/ld-2.18.so]
+  207,896  ???:_dl_relocate_object [/usr/lib64/ld-2.18.so]
+  195,023  ???:funkcja3() [/home/rafalkobak/Program/program]
+  120,004  ???:operator delete(void*) [/usr/lib64/libstdc++.so.6.0.19]
+  114,281  ???:strcmp'2 [/usr/lib64/ld-2.18.so]
+   66,970  ???:check_match.9437 [/usr/lib64/ld-2.18.so]
+
