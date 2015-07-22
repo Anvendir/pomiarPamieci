@@ -1,0 +1,23 @@
+creator.sh - started
+Number of snapshots is: 6
+Memory usage of snapshot 0 is equal to: 0
+Instruction number for snapshot 0 is equal to: 0
+Snapshot 0 deleted
+Memory usage of snapshot 1 is equal to: 80
+Instruction number for snapshot 1 is equal to: 1448876
+Snapshot 1 deleted
+Memory usage of snapshot 2 is equal to: 120
+Instruction number for snapshot 2 is equal to: 1448920
+Snapshot 2 deleted
+Memory usage of snapshot 3 is equal to: 136
+Instruction number for snapshot 3 is equal to: 1448964
+Snapshot 3 deleted
+Memory usage of snapshot 4 is equal to: 216
+Instruction number for snapshot 4 is equal to: 1449929
+Snapshot 4 deleted
+Memory usage of snapshot 5 is equal to: 120
+Instruction number for snapshot 5 is equal to: 1449964
+Snapshot 5 deleted
+[0;32mcreator.sh finished successfully [0;39m
+Output file: [0;37mout.creator.22550.txt [0;39m
+Log file: [0;37mlog.creator.22550.txt [0;39m

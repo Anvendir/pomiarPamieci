@@ -1,0 +1,33 @@
+///Pierwsza wersja programów
+1. Wstep
+Całość skłąda sie z edytowanego i przebudowaneog valgrinda(konkretnie massifa) oraz
+dwóch skryptów parser.sh oraz creator.sh
+
+2. Najpierw należy wygenerować log z massifa
+<<<<
+/opt/valgrindNoSnapLimit/bin/valgrind --tool=massif --time-unit=i --detailed-freq=1 --threshold=0.0 --max-snapshots=1000000 --massif-out-file=massif.mojMassifSurowy.out ./program
+>>>>
+
+3. Póżniej należy przeparsowac plik wyjściowy z massifa (w tym przypadku massif.mojMassifSurowy.out) za pomocą parser.sh
+<<<<
+./parser.sh massif.mojMassifSurowy.out 
+>>>>
+
+-> plik wyjsciowy bedzie mial postac out.parser.<pid>.txt
+-> np. out.parser.22406.txt
+
+-> dodatkowo generowany jest plik z logiem, plik ten ma postac log.parser.<pid>.txt
+-> np. log.parser.22406.txt
+
+4. Następnie należy przygotowąc gotowy plik do excela za pomocą creator.sh (jako argument należy podacplik wyjsciowy z parser.sh)
+<<<<
+./creator out.parser.22406.txt
+>>>>
+
+-> plik wyjsciowy bedzie mial postac out.creator.<pid>.txt
+-> np. out.creator.22550.txt
+
+-> dodatkowo generowany jest plik z logiem, plik ten ma postac log.creator.<pid>.txt
+-> np. out.creator.22550.txt
+
+5. Tak przygotowany plik można wgrac do excella (separator pól to spacja), (wykres kolumnowy, szerokosc przerwy =0)

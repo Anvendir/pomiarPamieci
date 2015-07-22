@@ -1,0 +1,6 @@
+Snapshot: 0 InstructionNumber: 0 TotalHeapMemory: 0
+Snapshot: 1 InstructionNumber: 1448876 TotalHeapMemory: 80
+Snapshot: 2 InstructionNumber: 1448920 TotalHeapMemory: 120
+Snapshot: 3 InstructionNumber: 1448964 TotalHeapMemory: 136
+Snapshot: 4 InstructionNumber: 1449929 TotalHeapMemory: 216
+Snapshot: 5 InstructionNumber: 1449964 TotalHeapMemory: 120

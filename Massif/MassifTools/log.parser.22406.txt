@@ -1,0 +1,32 @@
+parser.sh - started
+Number of snapshots is: 8
+Current snapshot is: 0
+Current snapshot is: 1
+Current snapshot is: 2
+Current snapshot is: 3
+Current snapshot is: 4
+Current snapshot is: 5
+Memory usage for snapshots 4 and 5 are equal, their value is: 216
+Snapshot 4 deleted
+Number of snapshots is: 7
+Inside updateSnapshotsNumeration: currentSnap is 5
+Current snapshot is: 0
+Current snapshot is: 1
+Current snapshot is: 2
+Current snapshot is: 3
+Current snapshot is: 4
+Current snapshot is: 5
+Current snapshot is: 6
+Memory usage for snapshots 5 and 6 are equal, their value is: 120
+Snapshot 5 deleted
+Number of snapshots is: 6
+Inside updateSnapshotsNumeration: currentSnap is 6
+Current snapshot is: 0
+Current snapshot is: 1
+Current snapshot is: 2
+Current snapshot is: 3
+Current snapshot is: 4
+Current snapshot is: 5
+[0;32mparser.sh finished successfully [0;39m
+Output file: [0;37mout.parser.22406.txt [0;39m
+Log file: [0;37mlog.parser.22406.txt [0;39m
